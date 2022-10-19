@@ -1,0 +1,65 @@
+<!-- customer details content -->
+<!-- customer name control -->
+<div class="row col col-md-12">
+  <div class="col col-md-6 form-group">
+    <label class="font-weight-bold" for="customer_name">Customer Name :</label>
+    <input type="text" class="form-control form1" name="name" placeholder="Name" id="customer_name">
+  </div>
+<!-- </div> -->
+
+<!-- customer contact number control -->
+<!-- <div class="row col col-md-12"> -->
+  <div class="col col-md-6 form-group">
+    <label class="font-weight-bold" for="customer_contact_number">Contact Number :</label>
+    <input type="number" class="form-control form1" name="contact_number" placeholder="Contact Number" id="customer_contact_number" >
+  </div>
+</div>
+
+<!-- customer address control -->
+<div class="row col col-md-12">
+  <div class="col col-md-6 form-group">
+    <label class="font-weight-bold" for="customer_address">Address :</label>
+    <textarea class="form-control form1" name="address" placeholder="Address" id="customer_address" ></textarea>
+  </div>
+
+  <!-- Customer email -->
+  <div class="col col-md-6 form-group">
+    <label for="email" class="font-weight-bold">E-mail <small class="text-danger"><b>Optional. Not needed if client will not be logging into the system</b></small></label>
+      <input type="email" name="email" id="email" class="form-control">
+    </div>
+</div>
+
+<div class="row col col-md-12">
+  <!-- Customer Username -->
+  <div class="col col-md-6 form-group">
+    <label for="username" class="font-weight-bold">Username <small class="text-danger"><b>Optional. Not needed if client will not be logging into the system</b></small></label>
+      <input type="text" name="username" id="username" class="form-control">
+    </div>
+
+    <!-- Customer Password -->
+  <div class="col col-md-6 form-group">
+    <label for="password" class="font-weight-bold">Password <small class="text-danger"><b>Optional. Not needed if client will not be logging into the system</b></small></label>
+      <input type="password" name="password" id="password" class="form-control">
+    </div>
+</div>
+
+<!-- horizontal line -->
+<div class="col col-md-12">
+  <hr class="col-md-12 float-left" style="padding: 0px; width: 95%; border-top: 2px solid  #02b6ff;">
+</div>
+
+<!-- form submit button -->
+<div class="row col col-md-12">
+  &emsp;
+  <div class="form-group m-auto">
+    <button class="btn btn-primary"  onclick="addCustomer();">ADD</button>
+  </div>
+  <!--
+  &emsp;
+  <div class="form-group">
+    <button class="btn btn-success form-control form1">Save and Add Another</button>
+  </div>
+  -->
+</div>
+<!-- result message -->
+<div id="customer_acknowledgement" class="col-md-12 h5 text-success font-weight-bold text-center" style="font-family: sans-serif;"></div>
