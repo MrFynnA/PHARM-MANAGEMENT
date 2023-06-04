@@ -1,2 +1,2 @@
 # PHARM-MANAGEMENT
- Management system
+Pharmacy Management system
